@@ -6,4 +6,8 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    x = str(a)
+    if len(x)==2:
+        return True
+    return False
+print(main(165))
