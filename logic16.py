@@ -6,4 +6,6 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    x=str(a)
+    return len(x)==5
+print(main(16546))
