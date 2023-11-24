@@ -15,4 +15,4 @@ def main(a):
     if x<y and y<z and z<k and k<l:
         return False
     return True
-print(main(15789))
+print(main(75421))
