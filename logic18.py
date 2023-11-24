@@ -5,4 +5,23 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    answer = 0 #12345
+
+    x=a%10
+    a//=10
+
+    y=a%10
+    a//=10
+
+    z=a%10
+    a//=10
+
+    k=a%10
+    a//=10
+
+    l=a%10
+    
+    if x<y and y<z and z<k and k<l:
+        return True
+    return False
+print(main(95421))
