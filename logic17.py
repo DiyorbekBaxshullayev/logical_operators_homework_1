@@ -6,4 +6,13 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    x = a//10000
+    y = (a-x*10000)//1000
+    z = (a-(x*10000+y*1000))//100
+    k = (a%100)//10
+    l = (a%10)
+
+    if x<y and y<z and z<k and k<l:
+        return True
+    return False
+print(main(15789))
