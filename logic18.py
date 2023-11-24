@@ -22,6 +22,6 @@ def main(a):
     l=a%10
     
     if x<y and y<z and z<k and k<l:
-        return True
-    return False
+        return False
+    return True
 print(main(95421))
